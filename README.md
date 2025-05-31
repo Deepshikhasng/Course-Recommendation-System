@@ -1,2 +1,17 @@
-# Course-Recommendation-System
-A skill-based recommendation engine using NLP and cosine similarity to match users with relevant courses. Built with Python, Scikit-learn, and NLTK. Boosted user engagement by 20% and improved course completion rates by 15%.
+# Course Recommendation System
+
+This project recommends online courses based on user input using course title, difficulty level, organization, and enrollment data.
+
+## 🚀 Features
+- Content-based recommendation
+- Streamlit web app
+- Preprocessing with pipelines and Pickle files
+
+## 📁 Files
+- `app.py`: Streamlit app
+- `model.pkl`: Pickled recommendation model
+- `courses.csv`: Dataset
+
+## 💻 How to Run
+```bash
+streamlit run app.py
